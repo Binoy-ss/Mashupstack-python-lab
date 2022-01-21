@@ -1,8 +1,0 @@
-Write a Python program to read an entire text file..
-
-Program code to read the text
-
-txt = open("text.txt", "r")
-
-print(txt.read())
-
