@@ -1,12 +1,8 @@
 #Write a Python program to reverse a tuple.
-def reverse(tup):
-    print("The tuple is: ", tup)
+userio = tuple((input("enter Element to reverse: ")))
 
-    tup = tup[::-1]
+rev = userio[::-1]
 
-    print("The reversed tuple is: ", tup)
+print(userio)
 
-
-tuple1 = (1, 2, 3, 4, 4, 5)
-
-reverse(tuple1)
+print(rev)
